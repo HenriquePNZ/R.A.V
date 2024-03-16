@@ -49,7 +49,7 @@ const validadesMap = {
 };
 
 function sendToWhatsapp(certType){
-  let number = "+5511943080088"; 
+  let number = "+5511915908957"; 
   let tipo = tiposMap[document.getElementById("tipo").value];
   let validade = validadesMap[document.getElementById("validade").value];
   let quantidade = document.getElementsByName("quantidade")[0].value;
