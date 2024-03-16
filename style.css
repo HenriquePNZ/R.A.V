@@ -173,6 +173,8 @@ footer p{
 
 .texto-footer{
     margin-top: 70px;
+    color: inherit; 
+    text-decoration: none; 
 }
 .container1 {
   display: flex;
@@ -782,6 +784,29 @@ h2 {
 
   #gif{
     width: 40%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .titulo-coluna-1 {
+    font-size: 1.5em; 
+    margin-bottom: 10px;
+  }
+
+  .titulo-coluna-2 {
+    width: 30%;
+  }
+
+  .btn {
+    margin-top: 10px; 
+  }
+
+  footer .texto-footer {
+    margin-top: 35px; /* Adicione um espaçamento inferior entre os elementos */
+  }
+
+  footer .titulo-footer p, footer .texto-footer h4 {
+    font-size: 0.8em; /* Reduza o tamanho do texto */
   }
 }
 
